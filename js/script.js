@@ -204,7 +204,7 @@ $(function () {
 		document.body.style.overflow = 'hidden';
         let a = document.createElement('iframe');
         $('.iframe-modal')[0].firstElementChild.innerHTML = " ";
-        a.setAttribute('src', e.target.nextElementSibling.getAttribute('src'));
+        a.setAttribute('src', e.target.nextElementSibling.getAttribute('href'));
         $('.iframe-modal')[0].firstElementChild.append(a);
     });
 
